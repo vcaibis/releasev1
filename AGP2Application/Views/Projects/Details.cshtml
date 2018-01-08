@@ -1,0 +1,122 @@
+﻿@model AGP2Application.Project
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Project</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.acronym)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.acronym)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.chef)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.chef)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.highschool)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.highschool)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.institute)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.institute)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.domain)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.domain)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.sector)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.sector)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.typeofproject)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.typeofproject)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.financial_instrument)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.financial_instrument)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.status)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.provisionnal_cashbudget)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.provisionnal_cashbudget)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.start)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.start)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.end)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.end)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
